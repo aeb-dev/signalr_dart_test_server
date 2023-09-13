@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/src/SignalR.Test/bin/Debug/net7.0/SignalR.Test.dll",
+            "program": "${workspaceFolder}/src/SignalR.Test/bin/Debug/net8.0/SignalR.Test.dll",
             "args": [],
             "cwd": "${workspaceFolder}/src/SignalR.Test",
             "stopAtEntry": false,
