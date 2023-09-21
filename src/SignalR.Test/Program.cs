@@ -37,6 +37,6 @@ app.UseCors(
 app.UseAuthorization();
 
 app.MapControllers();
-app.MapHub<TestHub>("/testHub", o => o.AllowAcks = true);
+app.MapHub<TestHub>("/testHub", o => o.AllowStatefulReconnects = true);
 
 app.Run();
